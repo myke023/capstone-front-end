@@ -6,6 +6,12 @@ import http from '../../lib/http';
 import Shops from '../Shops';
 import NavbarMain from '../../components/NavbarMain';
 import './mainpage.css';
+import Paul from '../../imgdata/PaulMiranda.jpg'
+import Simon from '../../imgdata/SimonFornillos2.jpg'
+import Stanley from '../../imgdata/stanley.jpg'
+import Stocks from '../../imgdata/stocks.jpg'
+import Inventory from '../../imgdata/inventory.jpg'
+import Holdings from '../../imgdata/holdings.jpg'
 
 const Mainpage = () => {
   const { id } = useParams();
@@ -41,7 +47,7 @@ const Mainpage = () => {
             <div className="carousel-item-container">
               <img
                 className="d-block w-100"
-                src="src/imgdata/stocks.jpg"
+                src={{Stocks}}
                 alt="Image 1"
               />
               <div className="carousel-caption">
@@ -59,7 +65,7 @@ const Mainpage = () => {
             <div className="carousel-item-container">
               <img
                 className="d-block w-100"
-                src="src/imgdata/inventory.jpg"
+                src={{Inventory}}
                 alt="Image 2"
               />
               <div className="carousel-caption">
@@ -77,7 +83,7 @@ const Mainpage = () => {
             <div className="carousel-item-container">
               <img
                 className="d-block w-100"
-                src="src/imgdata/holdings.jpg"
+                src={{Holdings}}
                 alt="Image"
               />
               <div className="carousel-caption">
@@ -100,7 +106,7 @@ const Mainpage = () => {
 
       <div className='card-container'>
         <Card className='text-center text-light card-color' style={{ width: '18rem', margin: '20px' }}>
-          <Card.Img variant="top" src="src/imgdata/stanley.jpg" className="img-fluid rounded-circle p-3 circle-image" style={{ width: '300px', height: '300px' }} />
+          <Card.Img variant="top" src={{Stanley}} className="img-fluid rounded-circle p-3 circle-image" style={{ width: '300px', height: '300px' }} />
           <Card.Body>
             <Card.Title >Stanley Balmores</Card.Title>
             <Card.Text>
@@ -109,7 +115,7 @@ const Mainpage = () => {
           </Card.Body>
         </Card>
         <Card className='text-center bg- text-light card-color' style={{ width: '18rem', margin: '20px' }}>
-          <Card.Img variant="top" src="src/imgdata/SimonFornillos2.jpg" className="img-fluid rounded-circle p-3 circle-image" style={{ width: '300px', height: '300px' }} />
+          <Card.Img variant="top" src={{Simon}} className="img-fluid rounded-circle p-3 circle-image" style={{ width: '300px', height: '300px' }} />
           <Card.Body>
             <Card.Title >Simon Fornillos</Card.Title>
             <Card.Text>
@@ -118,7 +124,7 @@ const Mainpage = () => {
           </Card.Body>
         </Card>
         <Card className='text-center bg- text-light card-color' style={{ width: '18rem', margin: '20px' }}>
-          <Card.Img variant="top" src="src/imgdata/PaulMiranda.jpg" className="img-fluid rounded-circle p-3 " style={{ width: '300px', height: '300px' }} />
+          <Card.Img variant="top" src={{Paul}} className="img-fluid rounded-circle p-3 " style={{ width: '300px', height: '300px' }} />
           <Card.Body>
             <Card.Title >Paul Miranda</Card.Title>
             <Card.Text>
