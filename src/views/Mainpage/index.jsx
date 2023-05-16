@@ -44,12 +44,8 @@ const Mainpage = () => {
       <div style={{ margin: '35px', borderRadius: '50px', overflow: 'hidden' }}>
         <Carousel className='carousel-body' style={{ margin: '75px', borderRadius: '50px' }}>
           <Carousel.Item>
-            <div className="carousel-item-container">
-              <img
-                className="d-block w-100"
-                src={{Stocks}}
-                alt="Image 1"
-              />
+            <div className="carousel-item-container stocksimg">
+
               <div className="carousel-caption">
                 <h3>Create and manage your own inventory</h3>
                 <p>
@@ -62,12 +58,7 @@ const Mainpage = () => {
             </div>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="carousel-item-container">
-              <img
-                className="d-block w-100"
-                src={{Inventory}}
-                alt="Image 2"
-              />
+            <div className="carousel-item-container inventoryimg">
               <div className="carousel-caption">
                 <h3>Explore a wide range of shops and products</h3>
                 <p>
@@ -80,12 +71,7 @@ const Mainpage = () => {
             </div>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="carousel-item-container">
-              <img
-                className="d-block w-100"
-                src={{Holdings}}
-                alt="Image"
-              />
+            <div className="carousel-item-container holdingsimg">
               <div className="carousel-caption">
                 <h3>Efficiently manage and track your inventory</h3>
                 <p>
@@ -106,7 +92,7 @@ const Mainpage = () => {
 
       <div className='card-container'>
         <Card className='text-center text-light card-color' style={{ width: '18rem', margin: '20px' }}>
-          <Card.Img variant="top" src={{Stanley}} className="img-fluid rounded-circle p-3 circle-image" style={{ width: '300px', height: '300px' }} />
+          <Card.Img variant="top" className="img-fluid rounded-circle p-3 circle-image stanleyimg" style={{ width: '300px', height: '300px' }} />
           <Card.Body>
             <Card.Title >Stanley Balmores</Card.Title>
             <Card.Text>
@@ -115,7 +101,7 @@ const Mainpage = () => {
           </Card.Body>
         </Card>
         <Card className='text-center bg- text-light card-color' style={{ width: '18rem', margin: '20px' }}>
-          <Card.Img variant="top" src={{Simon}} className="img-fluid rounded-circle p-3 circle-image" style={{ width: '300px', height: '300px' }} />
+          <Card.Img variant="top" className="img-fluid rounded-circle p-3 circle-image simonimg" style={{ width: '300px', height: '300px' }} />
           <Card.Body>
             <Card.Title >Simon Fornillos</Card.Title>
             <Card.Text>
@@ -124,7 +110,7 @@ const Mainpage = () => {
           </Card.Body>
         </Card>
         <Card className='text-center bg- text-light card-color' style={{ width: '18rem', margin: '20px' }}>
-          <Card.Img variant="top" src={{Paul}} className="img-fluid rounded-circle p-3 " style={{ width: '300px', height: '300px' }} />
+          <Card.Img variant="top" className="img-fluid rounded-circle p-3 paulimg" style={{ width: '300px', height: '300px' }} />
           <Card.Body>
             <Card.Title >Paul Miranda</Card.Title>
             <Card.Text>
