@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  /* display: flex; */
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.centerAll {
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+
+}
+
+.unlink {
+  text-decoration: none;
+}
+
+.fontwhite {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.buttonhover {
+  text-decoration: none;
+}
+
+.span28 {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 600;
+  /* text-align: center; */
+  /* margin: 10px; */
+  /* align-items: center;
+  align-content: center; */
+  /* width: 100%; */
+  /* margin-left: 1px; */
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.tcolor {
+  color: rgb(255, 255, 255);
+  /* text-align: center; */
+  /* margin: 10px; */
+  /* align-items: center;
+  align-content: center; */
+  /* width: 100%; */
+  /* margin-left: 1px; */
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+.span27 {
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0px;
+  /* text-align: center; */
+  /* margin: 10px; */
+  /* align-items: center;
+  align-content: center; */
+  /* width: 100%; */
+  /* margin-left: 1px; */
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.span26 {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  /* text-align: center; */
+  /* margin: 10px; */
+  /* align-items: center;
+  align-content: center; */
+  /* width: 100%; */
+  /* margin-left: 1px; */
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.loginoverlay {
+  border: solid 5px black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  background-color: rgb(240, 248, 255, 50%);
+  border-radius: 20px;
+}
+
+.registeroverlay {
+  border: solid 5px black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: rgb(240, 248, 255, 50%);
+  border-radius: 20px;
+}
+
+.productoverlay {
+  border: solid 5px black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: rgb(240, 248, 255, 50%);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.createshopoverlay {
+  border: solid 5px black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: rgb(240, 248, 255, 50%);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.productspageoverlay {
+  border: solid 5px black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: rgb(240, 248, 255, 50%);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.centertext {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.createshopcontainer {
+  margin: 50px;
+}
+
+.zoomeffect {
+  margin: .5rem;
+  box-shadow: rgb(199, 187, 187) 10px 10px 20px;
+}
+
+.zoomeffect:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.pad50 {
+  padding-top: 100px;
+}
+
+.spancontainer {
+  /* linear-gradient(to right, rgba(0, 0, 0, 0.607),rgba(0, 0, 0, 0.607)), */
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: contain;
+  height: 100vh;
+  opacity: 100%;
+}
+
+.bglogin {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.607), rgba(0, 0, 0, 0.607)), url(/src/imgdata/warehouse.jpg);
+  /* linear-gradient(to right, rgba(0, 0, 0, 0.607),rgba(0, 0, 0, 0.607)), */
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: contain;
+  height: 100vh;
+}
+
+.bgfull {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.607), rgba(0, 0, 0, 0.607)), url(/src/imgdata/warehouse.jpg);
+  /* linear-gradient(to right, rgba(0, 0, 0, 0.607),rgba(0, 0, 0, 0.607)), */
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.buttonhover button {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  transition: background-image 0.3s ease;
+}
+
+
+.buttonhover:hover {
+  background-image: linear-gradient(to right, gold, #ffcf40);
+}
+
+.fontblack {
+  color: black;
+}
+
+.bgyellow {
+  background-color: #ffd900;
+}
+
+
+.productDivContainer {
+  display: inline-flex;
+  /* height: 15rem;
+  width: 20rem;   */
+}
+
+.shopDivContainer {
+  display: inline-flex;
+  /* height: 15rem;
+  width: 20rem;  */
+}
+
+.productCard {
+  display: block;
+}
+
+.mr-2 {
+  margin-right: 8px;
+}
+
+.ml-2 {
+  margin-left: 8px;
+}
+
+.video1 {
+  opacity: 0%;
+}
